@@ -62,5 +62,7 @@ config/*.yml
 !config/tutorial.yml
 !config/oss.yml
 
+!config/rewind.yml
+
 # System Files
 .DS_Store
