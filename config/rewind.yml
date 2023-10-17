@@ -1,0 +1,221 @@
+server:
+  port: 3000
+  basePath: ''
+application:
+  domain: juice-sh.op
+  name: 'Rewind Cracked-Ups'
+  logo: https://pbs.twimg.com/profile_images/1544386655976656903/5445Hhfh_400x400.jpg
+  favicon: https://app.rewind.com/favicon.ico
+  theme: deeppurple-amber # Options: bluegrey-lightgreen blue-lightblue deeppurple-amber indigo-pink pink-bluegrey purple-green deeporange-indigo
+  showVersionNumber: true
+  showGitHubLinks: true
+  localBackupEnabled: true
+  numberOfRandomFakeUsers: 0
+  altcoinName: BoomerangBucks
+  privacyContactEmail: donotreply@owasp-juice.shop
+  customMetricsPrefix: juiceshop
+  chatBot:
+    name: 'LunchBot'
+    greeting: "Nice to meet you <customer-name>, I'm <bot-name>"
+    trainingData: 'botDefaultTrainingData.json'
+    defaultResponse: "Sorry I couldn't understand what you were trying to say"
+    avatar: https://emoji.slack-edge.com/T036MKC07/lunchbot/ef1fc88e5c0f6035.png
+  social:
+    twitterUrl: 'https://twitter.com/owasp_juiceshop'
+    facebookUrl: 'https://www.facebook.com/owasp.juiceshop'
+    slackUrl: 'https://owasp.org/slack/invite'
+    redditUrl: 'https://www.reddit.com/r/owasp_juiceshop'
+    pressKitUrl: 'https://github.com/OWASP/owasp-swag/tree/master/projects/juice-shop'
+    nftUrl: 'https://opensea.io/collection/juice-shop'
+    questionnaireUrl: ~
+  recyclePage:
+    topProductImage: fruit_press.jpg
+    bottomProductImage: apple_pressings.jpg
+  welcomeBanner:
+    showOnFirstStart: true
+    title: 'Welcome to Rewind Cracked-Ups!'
+    message: "<p>Being a web application with a vast number of intended security vulnerabilities, the <strong>OWASP Juice Shop</strong> is supposed to be the opposite of a best practice or template application for web developers: It is an awareness, training, demonstration and exercise tool for security risks in modern web applications. The <strong>OWASP Juice Shop</strong> is an open-source project hosted by the non-profit <a href='https://owasp.org' target='_blank'>Open Web Application Security Project (OWASP)</a> and is developed and maintained by volunteers. Check out the link below for more information and documentation on the project.</p><h1><a href='https://owasp-juice.shop' target='_blank'>https://owasp-juice.shop</a></h1>"
+  cookieConsent:
+    message: 'This website uses fruit cookies to ensure you get the juiciest tracking experience.'
+    dismissText: 'Me want it!'
+    linkText: 'But me wait!'
+    linkUrl: 'https://www.youtube.com/watch?v=9PnbKL3wuH4'
+  securityTxt:
+    contact: 'mailto:donotreply@owasp-juice.shop'
+    encryption: 'https://keybase.io/bkimminich/pgp_keys.asc?fingerprint=19c01cb7157e4645e9e2c863062a85a8cbfbdcda'
+    acknowledgements: '/#/score-board'
+    hiring: '/#/jobs'
+  promotion:
+    video: owasp_promo.mp4
+    subtitles: owasp_promo.vtt
+  easterEggPlanet:
+    name: Orangeuze
+    overlayMap: orangemap2k.jpg
+  googleOauth:
+    clientId: '1005568560502-6hm16lef8oh46hr2d98vf2ohlnj4nfhq.apps.googleusercontent.com'
+    authorizedRedirects:
+      - { uri: 'https://demo.owasp-juice.shop' }
+      - { uri: 'https://juice-shop.herokuapp.com' }
+      - { uri: 'https://preview.owasp-juice.shop' }
+      - { uri: 'https://juice-shop-staging.herokuapp.com' }
+      - { uri: 'https://juice-shop.wtf' }
+      - { uri: 'http://localhost:3000', proxy: 'https://local3000.owasp-juice.shop' }
+      - { uri: 'http://127.0.0.1:3000', proxy: 'https://local3000.owasp-juice.shop' }
+      - { uri: 'http://localhost:4200', proxy: 'https://local4200.owasp-juice.shop' }
+      - { uri: 'http://127.0.0.1:4200', proxy: 'https://local4200.owasp-juice.shop' }
+      - { uri: 'http://192.168.99.100:3000', proxy: 'https://localmac.owasp-juice.shop' }
+      - { uri: 'http://192.168.99.100:4200', proxy: 'https://localmac.owasp-juice.shop' }
+      - { uri: 'http://penguin.termina.linux.test:3000', proxy: 'https://localchromeos.owasp-juice.shop' }
+      - { uri: 'http://penguin.termina.linux.test:4200', proxy: 'https://localchromeos.owasp-juice.shop' }
+challenges:
+  showSolvedNotifications: true
+  showHints: true
+  showMitigations: true
+  codingChallengesEnabled: solved # Options: never  solved  always
+  restrictToTutorialsFirst: false
+  overwriteUrlForProductTamperingChallenge: 'https://owasp.slack.com'
+  xssBonusPayload: '<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>'
+  safetyOverride: false
+  showFeedbackButtons: true
+hackingInstructor:
+  isEnabled: true
+  avatarImage: https://emoji.slack-edge.com/T036MKC07/lunchbot/ef1fc88e5c0f6035.png
+  hintPlaybackSpeed: normal # Options: faster fast normal slow slower
+products:
+  -
+    name: 'Fleece Sweatpants'
+    price: 41.00
+    deluxePrice: 0.99
+    limitPerUser: 5
+    description: 'Well-made and lined with fleece, these comfortable Unisex Fleece Sweatpants will be your first choice for a casual everyday outfit—all you need to add is a graphic tee and sneakers to finish off the look.'
+    image: https://shop.rewind.com/cdn/shop/products/unisex-fleece-sweatpants-navy-blazer-zoomed-in-629505aede231.jpg?v=1653933539&width=600
+    reviews:
+      - { text: 'One of my favorites!', author: admin }
+  -
+    name: 'Unisex Sweatshirt'
+    description: 'A sturdy and warm sweatshirt bound to keep you warm in the colder months. A pre-shrunk, classic fit sweater thats made with air-jet spun yarn for a soft feel and reduced pilling.'
+    price: 42.00
+    deluxePrice: 2.49
+    image: https://shop.rewind.com/cdn/shop/products/unisex-crew-neck-sweatshirt-navy-zoomed-in-6295048ed8053.jpg?v=1653933255
+    reviews:
+      - { text: 'y0ur f1r3wall needs m0r3 musc13', author: uvogin }
+  -
+    name: 'Organic T-Shirt'
+    description: 'Go natural—order this t-shirt and enjoy the comfort of a truly all-natural organic cotton that is grown and harvested without any fertilizers and pesticides. The high-quality ringspun cotton yarns make sure that the fabric is extra soft and durable. If you’re looking to invest in ethical clothing that is sure to last and has a low environmental impact, look no further than this organic t-shirt!'
+    price: 37.00
+    image: https://shop.rewind.com/cdn/shop/products/RWD_Boomerang_Bucks_Products_Tee.png?v=1653931552
+    reviews:
+      - { text: 'I bought it, would buy again. 5/7', author: admin }
+  -
+    name: 'Tracksuit Jacket'
+    description: 'If there’s a clothing item that pairs well with a wide range of colors and styles, it’s the tracksuit jacket. Pair it with a pencil skirt or office pants to create a formal attire or mix it with your favorite tank top for a sleek everyday look. You can even wear the tracksuit jacket to the gym! The recycled tracksuit jacket is water-repellent and has a high collar, so you’ll be ready for any weather.'
+    price: 66.00
+    image: https://shop.rewind.com/cdn/shop/products/RWD_Boomerang_Bucks_Products_Jacket.png?v=1653933992
+  -
+    name: 'Long Sleeve Tee'
+    description: 'Enrich your wardrobe with a versatile long sleeve tee. For a casual look, combine it with your favorite jeans, and layer it with a button-up shirt, a zip-up hoodie, or a snazzy jacket. Dress it up with formal trousers or chinos to achieve a more professional look.'
+    price: 31.00
+    deluxePrice: 1.99
+    limitPerUser: 5
+    image: https://shop.rewind.com/cdn/shop/products/unisex-long-sleeve-tee-black-heather-zoomed-in-639a730ba9651.jpg?v=1671114742&width=600
+  -
+    name: 'Zip Hoodie'
+    description: 'This custom unisex zip hoodie has a brushed fleece inside, a hood with matching color drawstrings, and 2 handy kangaroo pockets. The comfortable fit and light fabric make it a must-have athleisure item.'
+    price: 40.00
+    image: https://shop.rewind.com/cdn/shop/products/unisex-basic-zip-hoodie-french-navy-zoomed-in-639a71c850b88.jpg?v=1671114787&width=600
+    reviews:
+      - { text: 'Fry liked it too.', author: bender }
+  -
+    name: 'Backup Complete Onesie'
+    description: 'Dress your baby to the nines with this 100% cotton one piece. It has three snap leg closure for easy changing, a comfortable envelope neckline, and a beautiful print thats bound to get the baby all happy and giggling.'
+    price: 27.10
+    limitPerUser: 5
+    image: https://shop.rewind.com/cdn/shop/products/baby-short-sleeve-one-piece-athletic-heather-zoomed-in-639a734e8e162.jpg?v=1671114693&width=600
+  -
+    name: '"No cap" Cap Cap'
+    description: 'A classic hat never goes out of style—especially one thats made of 100% organic cotton. The high quality and 100% organic cotton of this hat makes it a sustainable choice. You will be able to enjoy it for years to come. Complement your stylish outfits with this eco-friendly hat! Roddy made a change to show something'
+    price: 28.00
+    image: https://shop.rewind.com/cdn/shop/products/RWD_Boomerang_Bucks_Products_Cap1.png?v=1653931934
+  -
+    name: 'Tie-Dye Bucket Hat'
+    description: 'Shield yourself from the sun with a bright and colorful bucket hat. Decorated with a trendy embroidery design, its the perfect combination of practicality, comfort, and style.'
+    price: 36.00
+    image: https://shop.rewind.com/cdn/shop/products/tie-dye-bucket-hat-purple-turquoise-left-front-62950091e0c73.jpg?v=1653932206&width=1100
+    urlForProductTamperingChallenge: 'https://www.owasp.org/index.php/O-Saft'
+  -
+    name: 'Rewind Backpack'
+    description: 'This should not be your backup backpack.  Its stunning design along a padded back and adjustable shoulder straps, this embroidered backpack combines functionality and good looks. Use the two-way zipped main compartment to carry anything from a 15-inch laptop to books, and keep your phone and keys safe in the front zip pocket.'
+    price: 42.00
+    image: https://shop.rewind.com/cdn/shop/products/embroidered-simple-backpack-i-bagbase-bg126-anthracite-front-639a73870d62d.jpg?v=1671114762&width=600
+    useForChristmasSpecialChallenge: true
+  -
+    name: 'Winter Toque'
+    description: 'There is no backup for your ears. Just ask Van Gogh.  Make sure yours are protected with this toque! This organic ribbed beanie is stylish, practical, and eco-friendly, making it an absolute must-have for your hat selection. Thanks to its breathable lightweight fabric, you can wear it both indoors and outdoors.'
+    price: 24.00
+    image: https://shop.rewind.com/cdn/shop/products/organic-ribbed-beanie-oxford-navy-front-639a73f5d2bb6.jpg?v=1671114775&width=600
+    keywordsForPastebinDataLeakChallenge:
+      - hueteroneel
+      - eurogium edule
+  -
+    name: '2 Soc2 Compliant Socks'
+    description: 'Combine great comfort with tasteful style by treating yourself to a pair of high-quality, US-made embroidered socks. Give your outfits a new spark! <em>Out of stock!</em>'
+    price: 999.99
+    image: https://shop.rewind.com/cdn/shop/products/embroidered-crew-socks-white-left-639a749a4367d.jpg?v=1671114728&width=600
+    deletedDate: '2017-04-28'
+  -
+    name: 'Unwind Mug'
+    description: 'Add a splash of color to your morning coffee or tea ritual! These ceramic mugs not only have a beautiful design on them, but also a colorful rim, handle, and inside, so the mug is bound to spice up your mug rack.'
+    price: 17
+    image: https://shop.rewind.com/cdn/shop/products/RWD_Boomerang_Bucks_Products_Mug.png?v=1653930860
+  -
+    name: 'Rewind Stickers'
+    description: 'These glossy stickers are designed just for you. Give your favorite items, like a notepad, laptop, or phone case an extra glow and personal touch.'
+    price: 8
+    image: https://shop.rewind.com/cdn/shop/products/kiss-cut-sticker-sheet-white-front-6294f60d721c0.jpg?v=1653929553&width=1100
+  -
+    name: 'Back That SaaS Up Tumbler'
+    description: 'Enjoy hot or cold drinks on the go with this stylish stainless steel tumbler! This reusable tumbler with a metal straw is a perfect combo for hot or cold drinks at any time of the day.'
+    price: 29
+    image: https://shop.rewind.com/cdn/shop/products/stainless-steel-tumbler-black-front-639a742de1c75.jpg?v=1671114715&width=493
+    fileForRetrieveBlueprintChallenge: JuiceShop.stl # ...to blueprint file type
+    exifForBlueprintChallenge:
+      - OpenSCAD
+
+ 
+  -
+    name: 'Mouse Pad'
+    description: 'Every mouse needs a good mouse pad! Our mouse pad offers supreme grip and effortless mouse movement, and it does so with style.'
+    price: 13
+    quantity: 1
+    image: https://shop.rewind.com/cdn/shop/products/RWD_Boomerang_Bucks_Products_Mousepad.png?v=1653931252
+    reviews:
+      - { text: "I'd stand on my head to make you a deal for this piece of art.", author: stan }
+      - { text: "Just when my opinion of humans couldn't get any lower, along comes Stan...", author: bender }
+ 
+memories:
+  -
+    image: 'magn(et)ificent!-1571814229653.jpg'
+    caption: 'Magn(et)ificent!'
+    user: bjoernGoogle
+  -
+    image: 'my-rare-collectors-item!-[̲̅$̲̅(̲̅-͡°-͜ʖ-͡°̲̅)̲̅$̲̅]-1572603645543.jpg'
+    caption: 'My rare collectors item! [̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅]'
+    user: bjoernGoogle
+  -
+    image: 'favorite-hiking-place.png'
+    caption: 'I love going hiking here...'
+    geoStalkingMetaSecurityQuestion: 14
+    geoStalkingMetaSecurityAnswer: 'Daniel Boone National Forest'
+  -
+    image: 'IMG_4253.jpg'
+    caption: 'My old workplace...'
+    geoStalkingVisualSecurityQuestion: 10
+    geoStalkingVisualSecurityAnswer: 'ITsec'
+  -
+    image: 'BeeHaven.png'
+    caption: 'Welcome to the Bee Haven (/#/bee-haven)🐝'
+    user: evm
+ctf:
+  showFlagsInNotifications: false
+  showCountryDetailsInNotifications: none # Options: none  name  flag  both
+  countryMapping: ~
